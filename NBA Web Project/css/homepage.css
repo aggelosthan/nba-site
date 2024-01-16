@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.celtics-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+/* Main Content Style Start */
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  transition: 0.5s;
+  font-family: sans-serif;
+}
+
+.content h1:hover {
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+}
+
+.content a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 14px 70px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover {
+  background-color: #ed174b;
+  color: black;
+}
+
+.content a:hover {
+  background-color: #006bb7;
+}
+
+.kobe-bryant {
+  color: white;
+  font-size: 20px;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+.redirect {
+  position: absolute;
+  left: 1700px;
+  top: 2250px;
+}
+
+.icon a {
+  font-size: 40px;
+  color: black;
+  border-bottom: 5px solid #ed174b;
+  border-radius: 15px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.icon a:hover {
+  font-size: 40px;
+  color: #006bb7;
+  border-top: 5px solid #006bb7;
+  border-bottom: none;
+  border-radius: 15px;
+  padding: 10px;
+  transition: 0.2s;
+}
+/* Main Content Style End */
+
+/* Media Queries */
+
+@media (min-aspect-ratio: 16/9) {
+  .celtics-video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .celtics-video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+/* @media (max-width: 1000px) {
+  body {
+    width: 300%;
+    height: 100vh;
+  }
+
+  .main-page-image {
+    height: 54vh;
+  }
+
+  .main-page-image img {
+    height: 50vh;
+  }
+
+  nav {
+    margin-top: 150px;
+  }
+
+  .hero nav {
+    justify-content: flex-start;
+  }
+
+  .hero nav a {
+    justify-content: flex-start;
+    font-size: 50px;
+  }
+
+  .content h1 {
+    font-size: 60px;
+  }
+
+  .content p {
+    font-size: 40px;
+  }
+
+  .content a {
+    font-size: 60px;
+  }
+
+  .redirect {
+    position: absolute;
+    left: 1700px;
+    top: 2250px;
+  }
+
+  .icon a {
+    font-size: 40px;
+    color: black;
+    border-bottom: 5px solid #969696;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s;
+  }
+
+  .icon a:hover {
+    font-size: 40px;
+    color: #969696;
+    border-top: 5px solid #969696;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.2s;
+  }
+} */

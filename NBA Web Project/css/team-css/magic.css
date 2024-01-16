@@ -1,0 +1,151 @@
+/* GENERIC STYLE START */
+
+@font-face {
+  font-family: magicFont;
+  src: url(../../fonts/nba-magic.ttf);
+}
+
+.container {
+  background-image: url(../../images/team-images/magic/magic-wallpaper.png);
+  background-size: 100% 100%;
+}
+
+body {
+  background-color: #0077c0;
+  font-family: generalFont;
+}
+
+/* GENERIC STYLE END */
+
+/* GENERAL STYLE START */
+
+p {
+  color: white;
+}
+
+h2 {
+  background-color: white;
+  border-bottom: 5px solid #00a5d3;
+  color: #00a5d3;
+  cursor: pointer;
+}
+
+h2:hover {
+  background-color: #c4ced4;
+  border-bottom: 5px solid white;
+  color: #00a5d3;
+}
+
+.redirect {
+  top: 3070px;
+}
+
+/* GENERAL STYLE END */
+
+/* TEAM INFO STYLE START */
+
+.left {
+  color: black;
+  border-bottom: 8px solid #c4ced4;
+  border-radius: 23px;
+}
+.left .trophies {
+  border-radius: 17px;
+}
+
+.right img {
+  border-top: 10px solid #c4ced4;
+  width: 130%;
+  height: 400px;
+  border-radius: 40px;
+}
+
+.team_info p:first-child {
+  border-left: 10px solid #c4ced4;
+  padding: 40px;
+  border-radius: 11px;
+}
+
+.team_info p:last-child {
+  border-top: 10px solid #c4ced4;
+  padding: 40px;
+  border-radius: 11px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.picture_heading {
+  margin-bottom: 27px;
+  color: white;
+  border-left: 4px solid #c4ced4;
+  border-right: 4px solid #c4ced4;
+  border-radius: 31px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* TEAM INFO STYLE END */
+
+/* PLAYER CARD STYLE START */
+
+.player_card_container {
+  background-color: #f2f2f2;
+}
+
+.player_card_content div {
+  background-color: #0077c0;
+  border: 5px solid #c4ced4;
+  color: white;
+  font-family: magicFont;
+}
+
+.player_card_content div:last-child {
+  background-color: #c4ced4;
+  border: 5px solid #0077c0;
+  color: #0077c0;
+}
+
+.player span img {
+  border: 5px solid #c4ced4;
+  background-color: white;
+}
+
+.player_six span img {
+  border: 5px solid #0077c0;
+  background-color: white;
+}
+
+/* PLAYER CARD STYLE END */
+
+/* NAVBAR STYLE START */
+
+nav ul li a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav ul li a:hover {
+  background-color: #c4ced4;
+  color: #0077c0;
+  transition: 0.5s;
+}
+/* NAVBAR STYLE END */
+
+/* SOCIAL MEDIA STYLE START */
+
+.social_media {
+  color: white;
+  margin-top: 100px;
+}
+
+.wrapper {
+  border-bottom: 9px solid #c4ced4;
+  border-radius: 25px;
+}
+
+/* SOCIAL MEDIA STYLE END */

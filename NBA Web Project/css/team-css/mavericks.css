@@ -1,0 +1,145 @@
+/* GENERIC STYLE START */
+
+@font-face {
+  font-family: mavericksFont;
+  src: url(../../fonts/nba-mavericks.ttf);
+}
+
+.container {
+  background-image: url(../../images/team-images/mavericks/Mavericks-wallpaper.jpg);
+  background-size: 100% 100%;
+}
+
+body {
+  background-color: #002b5e;
+  font-family: generalFont;
+}
+
+/* GENERIC STYLE END */
+
+/* GENERAL STYLE START */
+
+p {
+  color: white;
+}
+
+h2 {
+  background-color: #00538c;
+  border-bottom: 5px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+h2:hover {
+  background-color: #00538c;
+  border-bottom: 5px solid #00538c;
+  color: #002b5e;
+}
+
+.redirect {
+  top: 3000px;
+}
+
+/* GENERAL STYLE END */
+
+/* TEAM INFO STYLE START */
+
+.left {
+  color: black;
+  border-bottom: 8px solid #00538c;
+  border-radius: 23px;
+}
+.left .trophies {
+  border-radius: 17px;
+}
+
+.right img {
+  border-bottom: 10px solid #00538c;
+  width: 130%;
+  height: 400px;
+  border-radius: 40px;
+}
+
+.team_info {
+  border-left: 10px solid #00538c;
+  border-right: 10px solid #00538c;
+  padding: 40px;
+  border-radius: 11px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.picture_heading {
+  margin-bottom: 27px;
+  color: white;
+  border-top: 4px solid #00538c;
+  border-radius: 31px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* TEAM INFO STYLE END */
+
+/* PLAYER CARD STYLE START */
+
+.player_card_container {
+  background-color: #f2f2f2;
+}
+
+.player_card_content div {
+  background-color: #00538c;
+  border: 5px solid #002b5e;
+  color: white;
+  font-family: mavericksFont;
+}
+
+.player_card_content div:last-child {
+  background-color: #002b5e;
+  border: 5px solid #00538c;
+  color: white;
+}
+
+.player span img {
+  border: 5px solid #002b5e;
+  background-color: white;
+}
+
+.player_six span img {
+  border: 5px solid #00538c;
+  background-color: white;
+}
+
+/* PLAYER CARD STYLE END */
+
+/* NAVBAR STYLE START */
+
+nav ul li a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav ul li a:hover {
+  background-color: #00538c;
+  color: #b8c4ca;
+  transition: 0.5s;
+}
+/* NAVBAR STYLE END */
+
+/* SOCIAL MEDIA STYLE START */
+
+.social_media {
+  color: white;
+  margin-top: 100px;
+}
+
+.wrapper {
+  border-bottom: 9px solid #00538c;
+  border-radius: 25px;
+}
+
+/* SOCIAL MEDIA STYLE END */

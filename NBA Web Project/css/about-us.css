@@ -1,0 +1,191 @@
+/* GENERIC STYLE START */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background-image: url(../images/about-us-background.jpg);
+  background-size: cover;
+}
+
+/* GENERIC STYLE END */
+
+/* GENERAL STYLE START */
+span {
+  font-size: 18px;
+}
+
+a {
+  margin-right: 20px;
+}
+
+/* GENERAL STYLE END */
+
+/* OTHER STYLE START */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* OTHER STYLE END */
+
+/* BOXES STYLE START */
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.box {
+  border: 5px solid #d3d3d3;
+  border-radius: 10%;
+  width: 425px;
+  height: 600px;
+  background-color: rgba(143, 143, 143, 0.329);
+}
+
+.label {
+  font-size: 25px;
+}
+/* BOX STYLE END */
+
+/* INFO STYLE START */
+
+.info_box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.information span {
+  font-size: 25px;
+  border-bottom: 3px solid white;
+  margin-bottom: 10px;
+}
+
+.user_pic {
+  border-radius: 50%;
+  border: 3px solid #d3d3d3;
+  width: 160px;
+  height: 160px;
+}
+/* TEAM STYLE START */
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.team span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team img {
+  width: 70px;
+  height: 70px;
+}
+/* TEAM STYLE END */
+
+/* SOCIAL MEDIA STYLE START */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-at,
+.fa-facebook-f,
+.fa-linkedin,
+.fa-github {
+  color: white;
+  transition: 0.4s;
+}
+
+.fa-facebook-f:hover {
+  color: #426782;
+  transition: 0.4s;
+}
+
+.fa-at:hover {
+  color: yellow;
+  transition: 0.4s;
+}
+
+.fa-linkedin:hover {
+  color: #0a66c2;
+  transition: 0.4s;
+}
+
+.fa-github:hover {
+  color: #24292e;
+  transition: 0.4s;
+}
+
+/* SOCIAL MEDIA STYLE END */
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  margin-top: 20px;
+  transition: 0.4s;
+}
+
+nav a:hover {
+  color: #ed174b;
+  transition: 0.4s;
+}
+
+.first {
+  box-shadow: 0 1.2rem 2rem -0.5rem #004e21;
+}
+
+.second {
+  box-shadow: 0 1.2rem 2rem -0.5rem #e9c054;
+}
+
+.third {
+  box-shadow: 0 1.2rem 2rem -0.5rem #00471b;
+}
+
+.fourth {
+  box-shadow: 0 1.2rem 2rem -0.5rem #002b5e;
+}
+
+.user_pic {
+  box-shadow: 0 1.2rem 2rem -0.5rem white;
+}
+
+.fourth .user_pic {
+  background-color: black;
+}

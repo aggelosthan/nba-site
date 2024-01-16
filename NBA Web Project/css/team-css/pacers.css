@@ -1,0 +1,147 @@
+/* GENERIC STYLE START */
+
+@font-face {
+  font-family: pacersFont;
+  src: url(../../fonts/nba-pacers.ttf);
+}
+
+.container {
+  background-image: url(../../images/team-images/pacers/pacers-wallpaper.jpg);
+  background-size: 100% 100%;
+}
+
+body {
+  background-color: #002d62;
+  font-family: generalFont;
+}
+
+/* GENERIC STYLE END */
+
+/* GENERAL STYLE START */
+
+p {
+  color: white;
+}
+
+h2 {
+  background-color: #fdbb30;
+  border-bottom: 5px solid #bec0c2;
+  color: white;
+  cursor: pointer;
+}
+
+h2:hover {
+  background-color: #bec0c2;
+  border-bottom: 5px solid #fdbb30;
+  color: #002d62;
+}
+
+.redirect {
+  top: 3000px;
+}
+
+/* GENERAL STYLE END */
+
+/* TEAM INFO STYLE START */
+
+.left {
+  color: black;
+  border-bottom: 8px solid #fdbb30;
+  border-radius: 23px;
+}
+.left .trophies {
+  border-radius: 17px;
+}
+
+.right img {
+  border-right: 10px solid #fdbb30;
+  width: 130%;
+  height: 400px;
+  border-radius: 40px;
+}
+
+.team_info {
+  border-left: 10px solid #fdbb30;
+  border-right: 10px solid #bec0c2;
+  padding: 40px;
+  border-radius: 11px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.picture_heading {
+  margin-bottom: 27px;
+  background-color: #fdbb30;
+  color: #002d62;
+  border: 4px solid #bec0c2;
+  border-radius: 31px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* TEAM INFO STYLE END */
+
+/* PLAYER CARD STYLE START */
+
+.player_card_container {
+  background-color: #f2f2f2;
+}
+
+.player_card_content div {
+  background-color: #fdbb30;
+  border: 5px solid #002d62;
+  color: #002d62;
+  font-family: pacersFont;
+}
+
+.player_card_content div:last-child {
+  background-color: #002d62;
+  border: 5px solid #fdbb30;
+  color: #fdbb30;
+}
+
+.player span img {
+  border: 5px solid #002d62;
+  background-color: white;
+}
+
+.player_six span img {
+  border: 5px solid #fdbb30;
+  background-color: white;
+}
+
+/* PLAYER CARD STYLE END */
+
+/* NAVBAR STYLE START */
+
+nav ul li a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav ul li a:hover {
+  background-color: #002d62;
+  color: #fdbb30;
+  transition: 0.5s;
+}
+
+/* NAVBAR STYLE END */
+
+/* SOCIAL MEDIA STYLE START */
+
+.social_media {
+  color: white;
+  margin-top: 100px;
+}
+
+.wrapper {
+  border-bottom: 9px solid #fdbb30;
+  border-radius: 25px;
+}
+
+/* SOCIAL MEDIA STYLE END */

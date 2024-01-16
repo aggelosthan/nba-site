@@ -1,0 +1,145 @@
+/* GENERIC STYLE START */
+
+@font-face {
+  font-family: hornetsFont;
+  src: url(../../fonts/nba-hornets.ttf);
+}
+
+.container {
+  background-image: url(../../images/team-images/hornets/hornets-wallpaper.jpg);
+  background-size: 100%;
+}
+
+body {
+  background-color: #00788c;
+  font-family: generalFont;
+}
+
+/* GENERIC STYLE END */
+
+/* GENERAL STYLE START */
+
+p {
+  color: white;
+}
+
+h2 {
+  background-color: #1d1160;
+  border-bottom: 5px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+h2:hover {
+  background-color: #1d1160;
+  border-bottom: 5px solid #1d1160;
+  color: #00788c;
+}
+
+.redirect {
+  top: 3100px;
+}
+
+/* GENERAL STYLE END */
+
+/* TEAM INFO STYLE START */
+
+.left {
+  color: black;
+  border-bottom: 8px solid #1d1160;
+  border-radius: 23px;
+}
+.left .trophies {
+  border-radius: 17px;
+}
+
+.right img {
+  border-bottom: 10px solid #1d1160;
+  width: 130%;
+  height: 400px;
+  border-radius: 40px;
+}
+
+.team_info {
+  border-left: 10px solid #1d1160;
+  border-right: 10px solid #1d1160;
+  padding: 40px;
+  border-radius: 11px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.picture_heading {
+  margin-bottom: 27px;
+  color: white;
+  border-bottom: 4px solid #1d1160;
+  border-radius: 31px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* TEAM INFO STYLE END */
+
+/* PLAYER CARD STYLE START */
+
+.player_card_container {
+  background-color: #f2f2f2;
+}
+
+.player_card_content div {
+  background-color: #00788c;
+  border: 5px solid #1d1160;
+  color: white;
+  font-family: hornetsFont;
+}
+
+.player_card_content div:last-child {
+  background-color: #1d1160;
+  border: 5px solid #00788c;
+  color: white;
+}
+
+.player span img {
+  border: 5px solid #1d1160;
+  background-color: white;
+}
+
+.player_six span img {
+  border: 5px solid #00788c;
+  background-color: white;
+}
+
+/* PLAYER CARD STYLE END */
+
+/* NAVBAR STYLE START */
+
+nav ul li a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav ul li a:hover {
+  background-color: #00788c;
+  color: #1d1160;
+  transition: 0.5s;
+}
+/* NAVBAR STYLE END */
+
+/* SOCIAL MEDIA STYLE START */
+
+.social_media {
+  color: white;
+  margin-top: 100px;
+}
+
+.wrapper {
+  border-bottom: 9px solid #1d1160;
+  border-radius: 25px;
+}
+
+/* SOCIAL MEDIA STYLE END */

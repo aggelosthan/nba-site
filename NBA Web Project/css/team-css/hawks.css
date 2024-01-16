@@ -1,0 +1,152 @@
+/* GENERIC STYLE START */
+
+@font-face {
+  font-family: hawksFont;
+  src: url(../../fonts/nba-hawks.ttf);
+}
+
+.container {
+  background-image: url(../../images/team-images/hawks/hawks-wallpaper.jpg);
+  background-size: 100%;
+}
+
+body {
+  background-color: #c8102e;
+  font-family: generalFont;
+}
+
+/* GENERIC STYLE END */
+
+/* GENERAL STYLE START */
+
+p {
+  color: white;
+}
+
+h2 {
+  background-color: #eee1c6;
+  border-bottom: 5px solid #fdb927;
+  color: #c8102e;
+  cursor: pointer;
+}
+
+h2:hover {
+  background-color: #fdb927;
+  border-bottom: 5px solid #e03a3e;
+  color: #c8102e;
+}
+
+.redirect {
+  top: 2900px;
+}
+
+.redirect {
+  top: 3050px;
+}
+
+/* GENERAL STYLE END */
+
+/* TEAM INFO STYLE START */
+
+.left {
+  color: black;
+  border-bottom: 8px solid #fdb927;
+  border-radius: 23px;
+}
+.left .trophies {
+  border-radius: 17px;
+}
+
+.right img {
+  border-bottom: 10px solid #fdb927;
+  width: 130%;
+  height: 400px;
+  border-radius: 40px;
+}
+
+.team_info {
+  padding: 40px;
+  border-radius: 11px;
+}
+
+.team_info p:last-child {
+  border-left: 10px solid #fdb927;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.picture_heading {
+  margin-bottom: 27px;
+  background-color: #fdb927;
+  color: #c8102e;
+  border-bottom: 4px solid #eee1c6;
+  border-radius: 31px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* TEAM INFO STYLE END */
+
+/* PLAYER CARD STYLE START */
+
+.player_card_container {
+  background-color: #f2f2f2;
+}
+
+.player_card_content div {
+  background-color: #c8102e;
+  border: 5px solid #fdb927;
+  color: white;
+  font-family: hawksFont;
+}
+
+.player_card_content div:last-child {
+  background-color: #fdb927;
+  border: 5px solid #c8102e;
+  color: white;
+}
+
+.player span img {
+  border: 5px solid #fdb927;
+  background-color: white;
+}
+
+.player_six span img {
+  border: 5px solid #c8102e;
+  background-color: white;
+}
+
+/* PLAYER CARD STYLE END */
+
+/* NAVBAR STYLE START */
+
+nav ul li a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav ul li a:hover {
+  background-color: #c8102e;
+  color: #fdb927;
+  transition: 0.5s;
+}
+/* NAVBAR STYLE END */
+
+/* SOCIAL MEDIA STYLE START */
+
+.social_media {
+  color: white;
+  margin-top: 100px;
+}
+
+.wrapper {
+  border-bottom: 9px solid #fdb927;
+  border-radius: 25px;
+}
+
+/* SOCIAL MEDIA STYLE END */

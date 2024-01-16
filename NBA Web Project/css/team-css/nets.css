@@ -1,0 +1,147 @@
+/* GENERIC STYLE START */
+
+@font-face {
+  font-family: netsFont;
+  src: url(../../fonts/nba-nets.ttf);
+}
+
+.container {
+  background-image: url(../../images/team-images/nets/nets-wallpaper.jpg);
+  background-size: 100% 100%;
+}
+
+body {
+  background-color: black;
+}
+/* GENERIC STYLE END */
+
+/* GENERAL STYLE START */
+
+p {
+  color: black;
+}
+
+h2 {
+  background-color: white;
+  border-bottom: 5px solid #aeaeae;
+  color: black;
+}
+
+h2:hover {
+  background-color: #b9b9b9;
+  border-bottom: 5px solid #6b6b6b;
+  color: black;
+  cursor: pointer;
+}
+
+.redirect {
+  top: 2780px;
+}
+
+/* GENERAL STYLE END */
+
+/* TEAM INFO STYLE START */
+
+.left {
+  color: black;
+  border-bottom: 8px solid #6b6b6b;
+  border-radius: 23px;
+}
+.left .trophies {
+  border-radius: 17px;
+}
+
+.right img {
+  border-bottom: 10px solid #6b6b6b;
+  width: 130%;
+  height: 400px;
+  border-radius: 40px;
+}
+
+.team_info p:first-child {
+  border-bottom: 7px solid #6b6b6b;
+  border-radius: 10px;
+  color: white;
+}
+
+.team_info p:last-child {
+  border-right: 7px solid #6b6b6b;
+  border-radius: 10px;
+  color: white;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.picture_heading {
+  margin-bottom: 27px;
+  color: white;
+  border-top: 4px solid #6b6b6b;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* TEAM INFO STYLE END */
+
+/* PLAYER CARD STYLE START */
+.player_card_container {
+  background-color: #f2f2f2;
+  border-bottom: 10px solid #aeaeae;
+  border-radius: 25px;
+}
+
+.player_card_content div {
+  background-color: #aeaeae;
+  border: 5px solid #000;
+  font-family: netsFont;
+}
+
+.player_card_content div:last-child {
+  background-color: #000;
+  border: 5px solid #aeaeae;
+  color: #fff;
+}
+
+.player span img {
+  border: 5px solid black;
+  border-radius: 100px;
+  background-color: white;
+}
+
+.player_six span img {
+  border-color: #aeaeae;
+  background-color: white;
+}
+
+/* PLAYER CARD STYLE END */
+
+/* NAVBAR STYLE START */
+
+nav ul li a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+/* NAVBAR STYLE END */
+
+/* SOCIAL MEDIA STYLE START */
+
+.social_media {
+  color: white;
+}
+
+.wrapper {
+  border-bottom: 9px solid #6b6b6b;
+  border-radius: 25px;
+}
+/* SOCIAL MEDIA STYLE END */

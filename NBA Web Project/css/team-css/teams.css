@@ -1,0 +1,312 @@
+/* GENERIC STYLE START */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 300vh;
+  background-color: white;
+}
+
+@font-face {
+  font-family: generalFont;
+  src: url(../../fonts/classy.ttf);
+}
+
+p,
+footer {
+  font-family: generalFont;
+}
+
+/* GENERIC STYLE END */
+
+/* GENERAL STYLE START */
+nav .logo {
+  width: 150px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_media {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+  margin-top: 70px;
+  text-transform: uppercase;
+  font-size: 30px;
+  transition: 0.5s;
+
+  width: 40%;
+  border-radius: 5px;
+  color: white;
+}
+
+/* GENERAL STYLE END */
+
+/* TEAM INFO STYLE START */
+
+.team_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.team_info_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.left,
+.right {
+  width: 500px;
+  height: 500px;
+}
+
+.trophies {
+  background-color: #f2f2f2;
+  border-radius: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.trophies h3 {
+  margin: auto;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.trophies span {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  display: table;
+}
+
+.trophies img {
+  width: 250px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right img {
+  width: 100%;
+  height: 300px;
+  border-radius: 40px;
+}
+
+.team_info p {
+  font-size: 27px;
+  padding: 0 40px;
+  font-style: italic;
+}
+
+/* TEAM INFO STYLE END */
+
+/* PLAYER CARD STYLE START */
+.player_card_container {
+  width: 70%;
+  height: 70vh;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 10px;
+}
+
+.player_card_content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* width: 100%; */
+  height: 100%;
+  margin: auto;
+}
+
+.player_card_content div {
+  width: 400px;
+  height: 90%;
+}
+
+.player_card_content div:last-child {
+  width: 400px;
+  height: 90%;
+}
+
+.player {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.player span img {
+  border-radius: 100px;
+}
+
+.player_six span img {
+  width: 110px;
+  height: 110px;
+}
+
+.player img {
+  height: 110px;
+  width: 110px;
+  object-fit: cover;
+}
+
+.number {
+  font-size: 45px;
+}
+
+/* PLAYER CARD STYLE END */
+
+/* SOCIAL MEDIA STYLE START*/
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  background-color: #f2f2f2;
+  border-radius: 60px;
+  width: 50%;
+  padding: 30px 0;
+}
+
+.button {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  line-height: 60px;
+  text-align: center;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.wrapper .button .icon {
+  font-size: 20px;
+}
+
+/*
+.wrapper .a:hover {
+  transition: 0.9s;
+}
+
+.wrapper .button a:link {
+  color: black;
+} */
+
+.fa-facebook,
+.fa-instagram,
+.fa-x-twitter,
+.fa-tiktok,
+.fa-youtube {
+  color: black;
+}
+
+.fa-bounce {
+  transition: 3s;
+}
+
+.fa-facebook:hover {
+  color: #426782;
+  transition: 0.4s;
+}
+.fa-x-twitter:hover {
+  color: #000000;
+  transition: 0.4s;
+}
+.fa-instagram:hover {
+  color: #e1306c;
+  transition: 0.4s;
+}
+.fa-youtube:hover {
+  color: #ff0000;
+  transition: 0.4s;
+}
+.fa-tiktok:hover {
+  color: #fe2c55;
+  transition: 0.4s;
+}
+
+/* SOCIAL MEDIA STYLE END*/
+
+/* FOOTER STYLE START */
+
+footer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  font-size: 16px;
+}
+/* FOOTER STYLE END */
+
+.redirect {
+  position: absolute;
+  left: 1700px;
+  top: 2900px;
+}
+
+.icon-teams a {
+  font-size: 20px;
+  color: white;
+  border-bottom: 5px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.icon-teams a:hover {
+  font-size: 20px;
+  color: #888888;
+  border-top: 5px solid white;
+  border-bottom: 0px;
+  border-radius: 15px;
+  padding: 10px;
+  transition: 0.2s;
+}

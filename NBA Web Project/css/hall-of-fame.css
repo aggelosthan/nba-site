@@ -1,0 +1,130 @@
+/* GENERIC STYLE START */
+
+body {
+  background-color: black;
+}
+
+/* GENERIC STYLE END */
+
+/* GENERAL STYLE START */
+a {
+  font-size: 30px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:visited,
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: #ffd900;
+  transition: 0.4s;
+}
+
+/* GENERAL STYLE END */
+
+/* OTHER STYLE START  */
+.container_ {
+  padding: 2rem;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* OTHER STYLE END */
+
+/* SLIDER STYLE START */
+.slider-wrapper {
+  position: relative;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem #ffd90085;
+  border-radius: 0.5rem;
+  -ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider #slide-3,
+.slider #slide-9,
+.slider #slide-15,
+.slider #slide-20 {
+  object-fit: cover;
+}
+
+.slider-nav a {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+  opacity: 1;
+  background-color: #ffd900;
+}
+
+/* SLIDER STYLE END */
+
+/* HEADING STYLE START */
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading span {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 3px solid #ffd900;
+  letter-spacing: 5px;
+}
+
+.heading .note {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  border-bottom: 3px solid white;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+/* HEADING STYLE END */
