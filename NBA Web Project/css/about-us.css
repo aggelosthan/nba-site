@@ -146,6 +146,8 @@ a {
 
 /* SOCIAL MEDIA STYLE END */
 
+/* NAVBAR STYLE START */
+
 nav {
   width: 100%;
   display: flex;
@@ -165,6 +167,8 @@ nav a:hover {
   color: #ed174b;
   transition: 0.4s;
 }
+
+/* NAVBAR STYLE END */
 
 .first {
   box-shadow: 0 1.2rem 2rem -0.5rem #004e21;
@@ -189,5 +193,23 @@ nav a:hover {
 .fourth .user_pic {
   background-color: black;
 }
+
+/* STUDENT WEBPAGE STYLE START */
+.student_webpage {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.student_webpage:hover {
+  color: #797979;
+  transition: 0.4s;
+}
+
+/* STUDENT WEBPAGE STYLE END */
 
 /* MADE BY ANGELOS THANASAI (60%) AND LOUKAS KOUGIATSOS (40%) */
