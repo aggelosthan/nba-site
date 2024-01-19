@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #262626;
+  height: 100%;
+  color: #262626;
+}
+
+.container {
+  background-color: #d3d3d3;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 68%;
+  height: 90vh;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+}
+/* INFO STYLE START */
+.info {
+  margin-top: 50px;
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.info span {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.info p {
+  border: 5px solid lightgray;
+  border-radius: 20px;
+  padding: 40px;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+#york,
+#athens_tech,
+#boston {
+  color: inherit;
+  transition: 0.4s;
+}
+
+#york:hover {
+  background-color: white;
+  transition: 0.4s;
+}
+
+#athens_tech:hover {
+  background-color: #0071ad;
+  transition: 0.4s;
+}
+
+#boston:hover {
+  background-color: #007a33;
+  transition: 0.4s;
+}
+/* INFO STYLE END */
+
+/* SOCIAL STYLE START */
+
+.social {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_span {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.social a {
+  margin: 0 10px;
+}
+
+.fa-envelope,
+.fa-facebook,
+.fa-linkedin,
+.fa-github,
+.fa-instagram {
+  color: #262626;
+  transition: 0.4s;
+}
+
+.fa-facebook:hover {
+  color: #426782;
+  transition: 0.4s;
+}
+
+.fa-envelope:hover {
+  color: yellow;
+  transition: 0.4s;
+}
+
+.fa-linkedin:hover {
+  color: #0a66c2;
+  transition: 0.4s;
+}
+
+.fa-github:hover {
+  color: #24292e;
+  transition: 0.4s;
+}
+
+.fa-instagram:hover {
+  color: #c13584;
+  transition: 0.4s;
+}
+
+/* SOCIAL STYLE END */
+
+/* NAV BAR STYLE START */
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  margin-top: 20px;
+  transition: 0.4s;
+}
+
+nav a:hover {
+  color: #555555;
+  transition: 0.4s;
+}
+
+/* NAVBAR STYLE END */
