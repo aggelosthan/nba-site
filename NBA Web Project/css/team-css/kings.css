@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/kings/kings-wallpaper.png);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: #63727a;
   border-bottom: 5px solid #63727a;
   color: #5a2d81;
-}
-
-.redirect {
-  top: 2950px;
 }
 
 /* GENERAL STYLE END */

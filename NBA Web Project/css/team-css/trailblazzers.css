@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/trailblazers/trailblazzers_wallpaper.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: black;
   border-bottom: 5px solid white;
   color: #c8102e;
-}
-
-.redirect {
-  top: 2930px;
 }
 
 /* GENERAL STYLE END */

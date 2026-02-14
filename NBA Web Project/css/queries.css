@@ -1,15 +1,15 @@
-@media (min-width: 320px) and (max-width: 1100px) {
-  /* ABOUT US STYLE START */
+/* ========== TABLET (max-width: 1100px) ========== */
+@media (max-width: 1100px) {
+  /* ABOUT US */
   .boxes {
     flex-direction: column;
   }
 
   .container {
-    height: 280vh;
+    height: auto;
   }
-  /* ABOUT US STYLE END */
 
-  /* HALL OF FAME STYLE START */
+  /* HALL OF FAME */
   .slider-nav {
     flex-wrap: wrap;
   }
@@ -19,89 +19,177 @@
     margin: 2px;
   }
 
-  /* HALL OF FAME STYLE END */
-}
-
-@media screen and (max-width: 1000px) {
-  body {
-    width: 100%;
-    height: 100vh;
-  }
-
-  .content h1,
-  .content p {
-    font-size: 30px;
-  }
-
+  /* HOMEPAGE */
   .hero {
-    height: 29vh;
-    width: 100%;
+    height: 60vh;
   }
 
   .celtics-video {
-    height: 85%;
+    height: 100%;
     width: 100%;
-  }
-
-  .hero nav ul li a {
-    font-size: 20px;
-  }
-
-  nav .logo {
-    width: 99px;
-  }
-
-  ul li a {
-    font-size: 20px;
-  }
-
-  .content h1,
-  .content p {
-    font-size: 17px;
-  }
-
-  div#up.hero div#main.content a {
-    font-size: 12px;
-    padding: 10px 25px;
-  }
-
-  .kobe-bryant {
-    text-align: right;
+    object-fit: cover;
   }
 
   .main-page-image {
-    width: 100%;
-    height: 63vh;
+    min-height: auto;
+    padding-bottom: 40px;
   }
 
-  .main-page-image h2,
-  .main-page-image p {
-    font-size: 15px;
-  }
-
-  .main-page-image img {
-    height: 58vh;
-  }
-
-  .container {
-    height: 26vh;
-    width: 100%;
+  .review {
+    top: 60px;
   }
 
   .main-box {
-    width: 160%;
-    height: 88%;
-    margin-top: 67px;
-    border: none;
+    width: 95%;
+    margin: 60px 0;
   }
 
   .redirect {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/* ========== SMALL TABLET / LARGE PHONE (max-width: 768px) ========== */
+@media (max-width: 768px) {
+  /* NAV - show hamburger */
+  .nav-toggle-label {
+    display: block;
+    color: white;
+  }
+
+  nav {
+    z-index: 50;
+  }
+
+  nav ul {
     position: absolute;
-    left: 448px;
-    top: 1812px;
+    top: 100%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    display: none;
+    z-index: 100;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  .nav-toggle:checked ~ ul {
+    display: block;
+  }
+
+  nav .logo {
+    width: 120px;
+  }
+
+  /* HERO */
+  .hero {
+    height: 50vh;
+    padding: 0 3%;
+  }
+
+  .content a {
+    padding: 10px 40px;
+  }
+
+  .kobe-bryant {
+    margin-right: 20px;
+  }
+
+  /* REVIEW SECTION */
+  .review {
+    top: 40px;
+  }
+
+  .main-page-image p {
+    width: 90%;
+  }
+
+  /* TEAM GRID */
+  .main-box {
+    width: 100%;
+    border: none;
+    margin: 40px 0;
+  }
+
+  .team-box img {
+    border-width: 3px;
+    border-radius: 12px;
+  }
+
+  /* FOOTER */
+  footer {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+
+  .redirect .icon a {
+    font-size: 28px;
+  }
+}
+
+/* ========== PHONE (max-width: 480px) ========== */
+@media (max-width: 480px) {
+  .hero {
+    height: 40vh;
+  }
+
+  nav {
+    padding: 10px 4%;
+  }
+
+  nav .logo {
+    width: 90px;
+  }
+
+  .content h1 {
+    font-size: 16px;
+  }
+
+  .content a {
+    padding: 8px 30px;
+    font-size: 12px;
+  }
+
+  .kobe-bryant {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+
+  .review {
+    top: 20px;
+  }
+
+  .main-page-image p {
+    width: 95%;
+    padding-top: 15px;
+  }
+
+  .main-box {
+    margin: 20px 0;
+  }
+
+  .redirect {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .redirect .icon a {
+    font-size: 22px;
   }
 
   footer {
-    margin-top: 422px;
+    width: 98%;
+    font-size: 11px;
+    padding: 5px 8px;
   }
 }

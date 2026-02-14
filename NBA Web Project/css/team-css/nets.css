@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/nets/nets-wallpaper.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
@@ -32,10 +32,6 @@ h2:hover {
   border-bottom: 5px solid #6b6b6b;
   color: black;
   cursor: pointer;
-}
-
-.redirect {
-  top: 2780px;
 }
 
 /* GENERAL STYLE END */

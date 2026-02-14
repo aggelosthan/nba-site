@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/hawks/hawks-wallpaper.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,14 +34,6 @@ h2:hover {
   background-color: #fdb927;
   border-bottom: 5px solid #e03a3e;
   color: #c8102e;
-}
-
-.redirect {
-  top: 2900px;
-}
-
-.redirect {
-  top: 3050px;
 }
 
 /* GENERAL STYLE END */

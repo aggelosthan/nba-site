@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/timberwolves/timberwolves-wallpaper.png);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: #78be20;
   border-bottom: 5px solid #236192;
   color: #0c2340;
-}
-
-.redirect {
-  top: 3000px;
 }
 
 /* GENERAL STYLE END */

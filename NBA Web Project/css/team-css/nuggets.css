@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/nuggets/nuggets-wallpaper.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: #bd9100;
   border-bottom: 5px solid #8b2131;
   color: #8b2131;
-}
-
-.redirect {
-  top: 2970px;
 }
 
 /* GENERAL STYLE END */

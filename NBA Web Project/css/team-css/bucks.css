@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/bucks/bucks-wallpaper.jpg);
-  background-size: 90%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: #00471b;
   border-bottom: 5px solid #eee1c6;
   color: black;
-}
-
-.redirect {
-  top: 3100px;
 }
 
 /* GENERAL STYLE END */

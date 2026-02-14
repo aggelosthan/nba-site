@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/bulls/bulls-wallpaper.jpg);
-  background-size: 80% 80%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: white;
   border-bottom: 5px solid black;
   color: #bc032b;
-}
-
-.redirect {
-  top: 2890px;
 }
 
 /* GENERAL STYLE END */

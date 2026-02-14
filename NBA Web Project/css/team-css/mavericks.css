@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/mavericks/Mavericks-wallpaper.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: #00538c;
   border-bottom: 5px solid #00538c;
   color: #002b5e;
-}
-
-.redirect {
-  top: 3000px;
 }
 
 /* GENERAL STYLE END */

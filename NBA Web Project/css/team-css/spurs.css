@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/spurs/spurs-wallpaper.webp);
-  background-size: 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: #000000;
   border-bottom: 5px solid #000000;
   color: #c4ced4;
-}
-
-.redirect {
-  top: 3000px;
 }
 
 /* GENERAL STYLE END */

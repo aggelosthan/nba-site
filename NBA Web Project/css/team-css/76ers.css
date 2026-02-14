@@ -7,16 +7,12 @@
 
 .container {
   background-image: url(../../images/team-images/76ers/76ers-wallpaper.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
   background-color: #d50032;
   font-family: generalFont;
-}
-
-.redirect {
-  top: 2900px;
 }
 
 /* GENERIC STYLE END */

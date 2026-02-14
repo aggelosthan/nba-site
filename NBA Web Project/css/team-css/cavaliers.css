@@ -7,16 +7,12 @@
 
 .container {
   background-image: url(../../images/team-images/cavaliers/cavaliers-wallpaper.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
   background-color: #860038;
   font-family: generalFont;
-}
-
-.redirect {
-  top: 2900px;
 }
 
 /* GENERIC STYLE END */
@@ -38,12 +34,6 @@ h2:hover {
   background-color: #fdbb30;
   border-bottom: 5px solid #6f263d;
   color: white;
-}
-
-.redirect {
-  position: absolute;
-  left: 1700px;
-  top: 3200px;
 }
 
 /* GENERAL STYLE END */

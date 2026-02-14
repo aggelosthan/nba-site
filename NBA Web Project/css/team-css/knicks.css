@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/knicks/knicks-wallpaper.png);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
@@ -33,10 +33,6 @@ h2:hover {
   background-color: #d86303;
   color: #ffffff;
   cursor: pointer;
-}
-
-.redirect {
-  top: 2750px;
 }
 
 /* GENERAL STYLE END */

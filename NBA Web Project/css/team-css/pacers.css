@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/pacers/pacers-wallpaper.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: #bec0c2;
   border-bottom: 5px solid #fdbb30;
   color: #002d62;
-}
-
-.redirect {
-  top: 3000px;
 }
 
 /* GENERAL STYLE END */

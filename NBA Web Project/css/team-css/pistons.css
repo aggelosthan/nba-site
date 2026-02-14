@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/pistons/pistons-wallpaper.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: #002d62;
   border-bottom: 5px solid #c8102e;
   color: #bec0c2;
-}
-
-.redirect {
-  top: 3000px;
 }
 
 /* GENERAL STYLE END */

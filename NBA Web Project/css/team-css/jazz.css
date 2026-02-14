@@ -7,16 +7,12 @@
 
 .container {
   background-image: url(../../images/team-images/jazz/jazz-wallpaper.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 body {
   background-color: #002b5c;
   font-family: generalFont;
-}
-
-.redirect {
-  top: 2900px;
 }
 
 /* GENERIC STYLE END */

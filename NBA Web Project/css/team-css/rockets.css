@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/rockets/rockets-wallpaper.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: #333333;
   border-bottom: 5px solid #333333;
   color: #000000;
-}
-
-.redirect {
-  top: 3060px;
 }
 
 /* GENERAL STYLE END */

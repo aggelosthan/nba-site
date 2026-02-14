@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/warriors/warriors-wallpaper.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: white;
   border-bottom: 5px solid #1d428a;
   color: #e9c054;
-}
-
-.redirect {
-  top: 3100px;
 }
 
 /* GENERAL STYLE END */

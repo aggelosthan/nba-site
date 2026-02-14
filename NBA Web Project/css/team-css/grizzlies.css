@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/grizzlies/grizzlies-wallpaper.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: #5d76a9;
   border-bottom: 5px solid #5d76a9;
   color: #000000;
-}
-
-.redirect {
-  top: 3030px;
 }
 
 /* GENERAL STYLE END */

@@ -7,16 +7,12 @@
 
 .container {
   background-image: url(../../images/team-images/heat/heat-wallpaper.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
   background-color: #98002e;
   font-family: generalFont;
-}
-
-.redirect {
-  top: 2900px;
 }
 
 /* GENERIC STYLE END */

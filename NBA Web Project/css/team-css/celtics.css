@@ -7,16 +7,12 @@
 
 .container {
   background-image: url(../../images/team-images/celtics/boston-wallpaper.jpg);
-  background-size: 100% 300%;
+  background-size: cover;
 }
 
 body {
   background-color: #007a33;
   font-family: generalFont;
-}
-
-.redirect {
-  top: 2900px;
 }
 
 /* GENERIC STYLE END */

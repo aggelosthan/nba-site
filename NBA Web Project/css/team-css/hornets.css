@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/hornets/hornets-wallpaper.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: #1d1160;
   border-bottom: 5px solid #1d1160;
   color: #00788c;
-}
-
-.redirect {
-  top: 3100px;
 }
 
 /* GENERAL STYLE END */

@@ -1,28 +1,25 @@
-@media (min-width: 320px) and (max-width: 1100px) {
-  /* GENERAL STYLE START */
+/* ========== TABLET (max-width: 1100px) ========== */
+@media (max-width: 1100px) {
   h2 {
-    font-size: 20px;
+    font-size: 22px;
+    width: 60%;
   }
 
   nav .logo {
-    width: 90px;
+    width: 100px;
   }
 
-  /* GENERAL STYLE END */
-
-  /* TEAM PAGE STYLE START */
-
   .container {
-    background-size: 100% 100%;
+    background-size: cover;
   }
 
   .team_info {
     flex-direction: column;
+    gap: 30px;
   }
 
   .team_info p:first-child {
     border: none;
-    margin-bottom: 30px;
   }
 
   .team_info p:last-child {
@@ -31,39 +28,267 @@
 
   .team_info_2 {
     flex-direction: column;
+    width: 90%;
+    gap: 30px;
   }
 
   .left {
-    width: 253px;
-    height: 500px;
-  }
-
-  .trophies {
-    flex-direction: column;
-    height: 100%;
+    width: 280px;
+    height: auto;
   }
 
   .right {
-    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .right img {
+    width: 100%;
+    height: auto;
   }
 
   .player_card_container {
-    background-color: inherit;
-    margin-top: 440px;
-  }
-
-  .player_card_content {
-    flex-direction: column;
-    margin-top: 500px;
+    margin-top: 50px;
   }
 
   .social_media {
-    margin-top: 500px;
+    margin-top: 40px;
+    font-size: 22px;
   }
 
   .wrapper {
-    width: 85%;
+    width: 80%;
+  }
+}
+
+/* ========== SMALL TABLET / LARGE PHONE (max-width: 768px) ========== */
+@media (max-width: 768px) {
+  /* NAV - show hamburger */
+  .nav-toggle-label {
+    display: block;
+    color: white;
   }
 
-  /* TEAM PAGE STYLE END */
+  nav {
+    z-index: 50;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    display: none;
+    z-index: 100;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  nav ul li a {
+    color: white;
+    font-size: 20px;
+  }
+
+  .nav-toggle:checked ~ ul {
+    display: block;
+  }
+
+  nav .logo {
+    width: 90px;
+  }
+
+  h2 {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .container {
+    height: 50vh;
+    background-attachment: scroll;
+  }
+
+  .trophies h3 {
+    font-size: 28px;
+  }
+
+  .trophies span {
+    font-size: 30px;
+  }
+
+  .trophies img {
+    width: 150px;
+  }
+
+  .left {
+    width: 220px;
+  }
+
+  .right {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .right img {
+    width: 100%;
+    height: auto;
+  }
+
+  .team_info {
+    flex-direction: column;
+    border-left: none;
+    border-right: none;
+  }
+
+  .team_info_2 {
+    flex-direction: column;
+  }
+
+  .player {
+    font-size: 20px;
+  }
+
+  .number {
+    font-size: 30px;
+  }
+
+  .player img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .wrapper {
+    width: 90%;
+    padding: 20px 0;
+  }
+
+  .button {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 6px;
+  }
+}
+
+/* ========== PHONE (max-width: 480px) ========== */
+@media (max-width: 480px) {
+  nav {
+    padding: 10px 4%;
+  }
+
+  nav .logo {
+    width: 70px;
+  }
+
+  h2 {
+    font-size: 15px;
+    width: 90%;
+    margin-top: 40px;
+  }
+
+  .container {
+    height: 35vh;
+    background-attachment: scroll;
+  }
+
+  .team_info {
+    width: 95%;
+    margin-top: 40px;
+  }
+
+  .team_info p {
+    padding: 0 15px;
+    font-size: 14px;
+  }
+
+  .left {
+    width: 180px;
+  }
+
+  .right {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .right img {
+    width: 100%;
+    height: auto;
+  }
+
+  .team_info {
+    flex-direction: column;
+    padding: 15px;
+    border-left: none;
+    border-right: none;
+  }
+
+  .team_info_2 {
+    flex-direction: column;
+  }
+
+  .trophies h3 {
+    font-size: 22px;
+  }
+
+  .trophies span {
+    font-size: 24px;
+  }
+
+  .trophies img {
+    width: 100px;
+  }
+
+  .player_card_container {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+  .player_card_content {
+    gap: 15px;
+  }
+
+  .player_card_content div {
+    width: 45%;
+    min-height: 220px;
+  }
+
+  .player {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .number {
+    font-size: 32px;
+  }
+
+  .player img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .player_six span img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .social_media {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+  .wrapper {
+    width: 95%;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
 }

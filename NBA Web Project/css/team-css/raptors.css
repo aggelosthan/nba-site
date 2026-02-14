@@ -7,7 +7,7 @@
 
 .container {
   background-image: url(../../images/team-images/raptors/raptors-wallpaper.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 body {
@@ -34,10 +34,6 @@ h2:hover {
   background-color: white;
   border-bottom: 5px solid #e4060d;
   color: #e4060d;
-}
-
-.redirect {
-  top: 2870px;
 }
 
 /* GENERAL STYLE END */
