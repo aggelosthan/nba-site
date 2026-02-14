@@ -67,7 +67,7 @@ NBA Web Project/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/nba-site.git
+   git clone https://github.com/aggelosthan/nba-site.git
    ```
 2. Open `NBA Web Project/index.html` in your browser.
 
